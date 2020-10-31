@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6f6f2126.chunk.css",
+    "main.js": "/static/js/main.5b50335b.chunk.js",
+    "main.js.map": "/static/js/main.5b50335b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.27f699ad.js",
+    "runtime-main.js.map": "/static/js/runtime-main.27f699ad.js.map",
+    "static/js/2.4bcad269.chunk.js": "/static/js/2.4bcad269.chunk.js",
+    "static/js/2.4bcad269.chunk.js.map": "/static/js/2.4bcad269.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cec83f0fe3378481af5075fb8a52fa95.js": "/precache-manifest.cec83f0fe3378481af5075fb8a52fa95.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6f6f2126.chunk.css.map": "/static/css/main.6f6f2126.chunk.css.map",
+    "static/js/2.4bcad269.chunk.js.LICENSE.txt": "/static/js/2.4bcad269.chunk.js.LICENSE.txt",
+    "static/media/005-orthopedist.svg": "/static/media/005-orthopedist.c14e5339.svg",
+    "static/media/006-therapist.svg": "/static/media/006-therapist.13b86eb9.svg",
+    "static/media/009-psychiatrist.svg": "/static/media/009-psychiatrist.6f4a7e93.svg",
+    "static/media/015-gynecologist.svg": "/static/media/015-gynecologist.ae420de9.svg",
+    "static/media/018-pediatrician.svg": "/static/media/018-pediatrician.95c49910.svg",
+    "static/media/021-oncologist.svg": "/static/media/021-oncologist.52c5f56b.svg",
+    "static/media/029-nurse.svg": "/static/media/029-nurse.73079c62.svg",
+    "static/media/038-nurse.svg": "/static/media/038-nurse.02a03d94.svg",
+    "static/media/039-gynecologist.svg": "/static/media/039-gynecologist.a4b9d7a5.svg",
+    "static/media/049-surgeon.svg": "/static/media/049-surgeon.6f29fdc1.svg",
+    "static/media/cardio.svg": "/static/media/cardio.3e7a1c3b.svg",
+    "static/media/logo.jpeg": "/static/media/logo.a1799cc1.jpeg",
+    "static/media/mainImg.jpg": "/static/media/mainImg.5439eb7c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.27f699ad.js",
+    "static/js/2.4bcad269.chunk.js",
+    "static/css/main.6f6f2126.chunk.css",
+    "static/js/main.5b50335b.chunk.js"
+  ]
+}
