@@ -7,12 +7,12 @@ sgMail.setApiKey(process.env.SENDGRID_KEY);
 app.use(express.static(path.join(__dirname, "build")));
 
 app.post("/sendmail", (req, res) => {
-  const msg = {
-    to: "chottu64@gmail.com", // Change to your recipient
-    from: "promods96@gmail.com", // Change to your verified sender
-    subject: "Sending with SendGrid is Fun",
-    text: "and easy to do anywhere, even with Node.js",
-    html: "<strong>and easy to do anywhere, even with Node.js</strong>",
+   const msg = {
+    to: "healthpluscenter2016@gmail.com", // Change to your recipient
+    from: "healthpluscenter2016@gmail.com", // Change to your verified sender
+    subject: "Test email for appointment",
+    text: "Ignore this is for testing",
+    html: "<strong>New Appointment</strong>",
   };
   sgMail
     .send(msg)
