@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.3219cb85.chunk.css",
-    "main.js": "/static/js/main.b5657620.chunk.js",
-    "main.js.map": "/static/js/main.b5657620.chunk.js.map",
+    "main.css": "/static/css/main.7875ce1a.chunk.css",
+    "main.js": "/static/js/main.bc3021a5.chunk.js",
+    "main.js.map": "/static/js/main.bc3021a5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.27f699ad.js",
     "runtime-main.js.map": "/static/js/runtime-main.27f699ad.js.map",
     "static/js/2.55b1485f.chunk.js": "/static/js/2.55b1485f.chunk.js",
     "static/js/2.55b1485f.chunk.js.map": "/static/js/2.55b1485f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.83cb02a831054ddbda94856f1ad618a5.js": "/precache-manifest.83cb02a831054ddbda94856f1ad618a5.js",
+    "precache-manifest.cef81f8a4d938c7569e2019f4979e6cd.js": "/precache-manifest.cef81f8a4d938c7569e2019f4979e6cd.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.3219cb85.chunk.css.map": "/static/css/main.3219cb85.chunk.css.map",
+    "static/css/main.7875ce1a.chunk.css.map": "/static/css/main.7875ce1a.chunk.css.map",
     "static/js/2.55b1485f.chunk.js.LICENSE.txt": "/static/js/2.55b1485f.chunk.js.LICENSE.txt",
     "static/media/005-orthopedist.svg": "/static/media/005-orthopedist.c14e5339.svg",
     "static/media/006-therapist.svg": "/static/media/006-therapist.13b86eb9.svg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.27f699ad.js",
     "static/js/2.55b1485f.chunk.js",
-    "static/css/main.3219cb85.chunk.css",
-    "static/js/main.b5657620.chunk.js"
+    "static/css/main.7875ce1a.chunk.css",
+    "static/js/main.bc3021a5.chunk.js"
   ]
 }

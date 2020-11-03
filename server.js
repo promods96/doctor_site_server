@@ -4,15 +4,31 @@ const app = express();
 const sgMail = require("@sendgrid/mail");
 sgMail.setApiKey(process.env.SENDGRID_KEY);
 
+app.use(express.json());
 app.use(express.static(path.join(__dirname, "build")));
 
 app.post("/sendmail", (req, res) => {
-   const msg = {
-    to: "healthpluscenter2016@gmail.com", // Change to your recipient
+  let {
+    first_name = "",
+    last_name = "",
+    email = "-",
+    phone = "-",
+    notes = "-",
+    service = 1,
+  } = req.body;
+  const msg = {
+    to: "promods96@gmail.com", // Change to your recipient
     from: "healthpluscenter2016@gmail.com", // Change to your verified sender
-    subject: "Test email for appointment",
-    text: "Ignore this is for testing",
-    html: "<strong>New Appointment</strong>",
+    subject: "New Appointment",
+    text: "Hi,",
+    html: `<h1>${
+      service == 1 ? "Consulting" : "Home Service"
+    }</h1><table style="font-size: 18px">
+      <tr><td><b>Name</b></td><td>${first_name} ${last_name}</td></tr>
+      <tr><td><b>Phone</b></td><td>${phone}</td></tr>
+      <tr><td><b>Email</b></td><td>${email}</td></tr>
+      <tr><td><b>Notes</b></td><td>${notes}</td></tr>
+    </table>`,
   };
   sgMail
     .send(msg)
