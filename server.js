@@ -18,7 +18,7 @@ app.post("/sendmail", (req, res) => {
     service = 1,
   } = req.body;
   const msg = {
-    to: "promods96@gmail.com", // Change to your recipient
+    to: "healthpluscenter2016@gmail.com", // Change to your recipient
     from: "healthpluscenter2016@gmail.com", // Change to your verified sender
     subject: "New Appointment",
     text: "Hi,",
