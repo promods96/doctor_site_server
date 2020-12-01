@@ -16,6 +16,7 @@ app.post("/sendmail", (req, res) => {
     phone = "-",
     notes = "-",
     service = 1,
+    package= "-"
   } = req.body;
   const msg = {
     to: "healthpluscenter2016@gmail.com", // Change to your recipient
@@ -29,6 +30,7 @@ app.post("/sendmail", (req, res) => {
       <tr><td style="border:1px solid #ddd;padding: 8px"><b>Phone</b></td><td style="border:1px solid #ddd;padding: 8px">${phone}</td></tr>
       <tr><td style="border:1px solid #ddd;padding: 8px"><b>Email</b></td><td style="border:1px solid #ddd;padding: 8px">${email}</td></tr>
       <tr><td style="border:1px solid #ddd;padding: 8px"><b>Notes</b></td><td style="border:1px solid #ddd;padding: 8px">${notes}</td></tr>
+      <tr><td style="border:1px solid #ddd;padding: 8px"><b>Notes</b></td><td style="border:1px solid #ddd;padding: 8px">${package}</td></tr>
     </table>`,
   };
   sgMail
