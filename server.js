@@ -30,7 +30,7 @@ app.post("/sendmail", (req, res) => {
       <tr><td style="border:1px solid #ddd;padding: 8px"><b>Phone</b></td><td style="border:1px solid #ddd;padding: 8px">${phone}</td></tr>
       <tr><td style="border:1px solid #ddd;padding: 8px"><b>Email</b></td><td style="border:1px solid #ddd;padding: 8px">${email}</td></tr>
       <tr><td style="border:1px solid #ddd;padding: 8px"><b>Notes</b></td><td style="border:1px solid #ddd;padding: 8px">${notes}</td></tr>
-      <tr><td style="border:1px solid #ddd;padding: 8px"><b>Package</b></td><td style="border:1px solid #ddd;padding: 8px">${package}</td></tr>
+      <tr><td style="border:1px solid #ddd;padding: 8px"><b>Package</b></td><td style="border:1px solid #ddd;padding: 8px">${package.toString()}</td></tr>
     </table>`,
   };
   sgMail
